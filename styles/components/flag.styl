@@ -1,0 +1,38 @@
+.flag {
+	display: table;
+	width: 100%;
+}
+
+.flag__image,
+.flag__body {
+	display: table-cell;
+	vertical-align: middle;
+
+	.flag--top & {
+		vertical-align: top;
+	}
+
+	.flag--bottom & {
+		vertical-align: bottom;
+	}
+
+}
+
+.flag__image {
+	padding-right: 5px;
+
+	> img {
+		display: block;
+		width: 25px
+	}
+
+	.flag--rev & {
+		padding-right: 0;
+		padding-left: 10px;
+	}
+
+}
+
+.flag__body {
+	width: 100%;
+}

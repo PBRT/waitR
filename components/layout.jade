@@ -15,9 +15,45 @@ html
 	body
 
 		.navbar
-			.navbar__header(onclick="toggleMenu()") waitR
+			.navbar__header(onclick="toggleMenu()") 
+				.navbar__brand(id="brand") waitR
 
 		.view
-			.side-menu Slide menu
+			.side-menu 
+
+				.circle 
+
+				.side-menu__title
+					| My Account
+				ul
+					li.side-menu__item.flag
+						.flag__image
+							img(src="/assets/icon/adjust2.svg")
+						.flag__body
+							| Credit Card
+
+					li.side-menu__item.flag
+						.flag__image
+							img(src="/assets/icon/profile.svg")
+						.flag__body
+							| Profile
+
+				.side-menu__separator
+
+				.side-menu__title
+					| Orders
+				ul
+					li.side-menu__item Current 
+					li.side-menu__item In the need
+					li.side-menu__item History
+				.side-menu__separator
+
+				.side-menu__title
+					| The Doodle Bar
+				ul
+					li.side-menu__item Opening Hours
+					li.side-menu__item Get Me There
+					li.side-menu__item Contact
+
 			.container(id="container")
 				block view

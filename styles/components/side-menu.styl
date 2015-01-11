@@ -1,7 +1,35 @@
 .side-menu
 	float: left
-	background-color: ui-lightgrey
+	background-color: #E8555A
+	color:  ui-lightgrey
 	position: absolute
 	width: ui-side-menu-size
 	border-right: ui-border-default
-	margin-top: 40px
+	padding-top: ui-vr
+	cursor: pointer
+	
+	.flag 
+		padding-left: ui-hr
+
+	&__title 
+		transition: color 0.2s ease-in
+		font-size: ui-font-size-h3
+		padding-left: ui-hr
+	
+	&__title:hover
+		color:  white
+		
+	&__item 
+		transition: color 0.2s ease-in
+		font-size: ui-font-size-small
+		padding-bottom: ui-hr*0.5
+	
+	&__item:hover
+		color:  white
+		
+	&__separator
+		width: 80%
+		height: ui-separator-height
+		background-color: ui-lightgrey
+		margin-left: 10%;
+		margin-bottom: ui-vr;
