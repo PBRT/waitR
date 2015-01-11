@@ -19,5 +19,9 @@
     "gulp-watch": "^3.0.0",
     "nib": "^1.0.4",
     "wiredep": "^2.2.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^1.9.0",
+    "gulp": "^3.8.10"
   }
 }

@@ -14,7 +14,7 @@ gulp.task('clean', function () {
   .pipe(clean());
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', ['build'], function() {
   gulp.watch('./components/**/*.jade', ['clean', 'templates'] );
   gulp.watch('./styles/*.styl', ['clean', 'stylus']);
 });
