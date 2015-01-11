@@ -1,17 +1,23 @@
 doctype html
 html
-  head
-    link(
-      rel="stylesheet",
-      href="../../css/all.css"
-    )    
-    link(
-      href='http://fonts.googleapis.com/css?family=Open+Sans',
-      rel='stylesheet',
-      type='text/css')
-  body
-    .navbar
-      .navbar-header
-        | waitR
-    .view
-      block view
+	head
+		link(
+			rel="stylesheet",
+			href="../../css/all.css"
+		)
+		script(
+			src='../../jquery.min.js'
+		)
+		script(
+			src='../../../general.js'
+		)
+
+	body
+
+		.navbar
+			.navbar__header(onclick="toggleMenu()") waitR
+
+		.view
+			.side-menu Slide menu
+			.container(id="container")
+				block view
