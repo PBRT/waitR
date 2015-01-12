@@ -1,0 +1,36 @@
+.pan
+	overflow-x: scroll
+	white-space:nowrap
+	height: 5*ui-vr
+	width: 100%
+	display: inline-block;
+	text-align: center
+	
+	&__item 
+		border-radius: 3px
+		cursor: pointer
+		display: inline-block
+		width: 5*ui-vr
+		height: 5*ui-vr
+		background-color: white
+		transition: background-color 0.2s ease-in
+		
+	&__item:hover
+		background-color: ui-red
+		color: ui-grey
+		
+	&__title
+		font-size: 15px
+		margin-top: 10px
+		//margin-bottom : 20px
+	
+	&__subtitle
+		font-size: 13px
+	
+	&__number
+		font-size: 20px
+		margin-top: 20px
+
+		
+		
+		

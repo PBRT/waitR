@@ -8,12 +8,20 @@
 	padding-top: ui-vr
 	cursor: pointer
 	padding-left: ui-hr*0.5
-	height: 350px
+	height: 100vh
 	overflow-y: scroll
+	overflow-x: hidden
 	
 	.flag 
 		padding-left: ui-hr
-
+		
+		&__body 
+			// font-size: 10px
+			transition: font-size 0.2s ease-in
+		
+		&__body:hover
+			font-size: 15px
+			
 	&__title 
 		transition: color 0.2s ease-in
 		font-size: ui-font-size-h3

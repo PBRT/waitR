@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"side",
+				"side-menu__item"
+			],
+			[
 				"margin",
 				"margin-right"
 			],
@@ -135,13 +139,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "styles/components/side-menu.styl",
+			"settings":
+			{
+				"buffer_size": 691,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 347.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isnt",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ",
 				"Package Control: List Packages"
@@ -151,23 +183,7 @@
 				"Package Control: Install Package"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"pack",
 				"Package Control: Install Package"
 			]
 		],
@@ -192,10 +208,69 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/pierre/workspace/waitR"
+		"/Users/pierre/workspace/waitR",
+		"/Users/pierre/workspace/waitR/assets",
+		"/Users/pierre/workspace/waitR/components",
+		"/Users/pierre/workspace/waitR/components/kitchen-sink",
+		"/Users/pierre/workspace/waitR/dist",
+		"/Users/pierre/workspace/waitR/dist/assets",
+		"/Users/pierre/workspace/waitR/styles",
+		"/Users/pierre/workspace/waitR/styles/components"
 	],
 	"file_history":
 	[
+		"/Users/pierre/workspace/waitR/assets/general.js",
+		"/Users/pierre/workspace/waitR/styles/general.styl",
+		"/Users/pierre/workspace/waitR/gulpfile.js",
+		"/Users/pierre/workspace/waitR/components/layout.jade",
+		"/Users/pierre/workspace/waitR/assets/icon/arrow74.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/circular4.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/info9.svg",
+		"/Users/pierre/workspace/waitR/styles/components/side-menu.styl",
+		"/Users/pierre/workspace/waitR/styles/components/tile.styl",
+		"/Users/pierre/workspace/waitR/styles/components/flag.styl",
+		"/Users/pierre/workspace/waitR/node_modules/gulp/node_modules/gulp-util/lib/isNull.js",
+		"/Users/pierre/workspace/waitR/assets/icon/icon2.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/little27.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/little20.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/little14.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/circular9.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/little10.svg",
+		"/Users/pierre/workspace/waitR/node_modules/wiredep/node_modules/bower-config/node_modules/mout/array/lastIndexOf.js",
+		"/Users/pierre/workspace/waitR/assets/icon/circular8.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/circular7.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/circular6.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/circular3.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/black64.svg",
+		"/Users/pierre/workspace/waitR/styles/ui-variables.styl",
+		"/Users/pierre/workspace/waitR/assets/icon/black33.svg",
+		"/Users/pierre/workspace/waitR/styles/buttons.styl",
+		"/Users/pierre/workspace/waitR/node_modules/wiredep/node_modules/bower-config/node_modules/mout/lang/clone.js",
+		"/Users/pierre/workspace/waitR/node_modules/gulp-jade/node_modules/jade/lib/nodes/block-comment.js",
+		"/Users/pierre/workspace/waitR/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/tests/test-qs.js",
+		"/Users/pierre/workspace/waitR/assets/icon/circle10.svg",
+		"/Users/pierre/workspace/waitR/node_modules/browser-sync/lib/cli/cli-info.js",
+		"/Users/pierre/workspace/waitR/assets/icon/camera19.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/credit98.svg",
+		"/Users/pierre/workspace/waitR/styles/navbar.styl",
+		"/Users/pierre/workspace/waitR/dist/assets/icon/profile_white.svg",
+		"/Users/pierre/workspace/waitR/assets/icon/profile.svg",
+		"/Users/pierre/workspace/waitR/node_modules/wiredep/node_modules/bower-config/node_modules/mout/array/findLast.js",
+		"/Users/pierre/workspace/waitR/assets/icon/facebook6.svg",
+		"/Users/pierre/workspace/waitR/styles/app.styl",
+		"/Users/pierre/workspace/waitR/styles/components/kitchen-sink.styl",
+		"/Users/pierre/workspace/waitR/components/kitchen-sink/kitchen-sink.jade",
+		"/Users/pierre/workspace/waitR/node_modules/gulp-stylus/examples/css/sourcemaps-inline.styl",
+		"/Users/pierre/workspace/waitR/assets/font/sofiapro_light_macroman/stylesheet.css",
+		"/Users/pierre/workspace/waitR/general.js",
+		"/Users/pierre/workspace/waitR/dist/jquery.min.js",
+		"/Users/pierre/workspace/waitR/.editorconfig",
+		"/Users/pierre/workspace/waitR/node_modules/gulp-jade/test/error.js",
+		"/Users/pierre/workspace/waitR/node_modules/gulp-stylus/test/expected/define.css",
+		"/Users/pierre/workspace/waitR/components/.editorconfig",
+		"/Users/pierre/workspace/waitR/README.md",
+		"/Users/pierre/workspace/waitR/.jshintignore",
+		"/Users/pierre/workspace/waitR/.gitignore",
 		"/Users/pierre/workangel/wa-hermes/client/app/pages/feed/global/create.scss",
 		"/Users/pierre/workangel/wa-hermes/client/app/pages/feed/global/_create.scss",
 		"/Users/pierre/workangel/wa-hermes/client/app/pages/online-shop/_modal.html",
@@ -271,69 +346,19 @@
 		"/Users/pierre/workangel/wa-hermes/.jscsrc",
 		"/Users/pierre/workangel/wa-hermes/client/app/services/Retailer/Retailer.service.js",
 		"/Users/pierre/workangel/wa-hermes/client/app/services/Restaurants/Restaurants.service.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/services/User/User.service.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/restaurants/restaurants.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/services/OnlineShop/OnlineShop.service.spec.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/shop-preset/shop-preset.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/cookieLaw/cookieLaw.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/profile/recognitionTimeline/recognitionTimeline.scss",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/restaurant-detail/restaurant-detail.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/restaurant-detail/restaurant-detail.controller.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/services/Badges/Badges.service.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/services/MainMenu/MainMenu.service.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/mainMenu/mainMenu.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/mainMenu/mainMenu.scss",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/mainMenu/mainMenu.directive.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/online-preset/online-preset.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/offers/offer.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/online-shop-search/online-shop-search.controller.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/confirm-email/confirm-email.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/confirm-email/confirm-email.scss",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/online-shop/online-shop-retailer/online-shop-retailer.scss",
-		"/Users/pierre/workangel/wa-hermes/server/config/environment/index.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/login/login.controller.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/login/login.html",
-		"/Users/pierre/workangel/wa-hermes/client/loaderio-d9cdbc50754c178ed427be8a60e17ef1.txt",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/locationAutocomplete/locationAutocomplete.directive.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/services/Company/Company.service.js",
-		"/Users/pierre/workangel/wa-hermes/.travis.yml",
-		"/Users/pierre/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/toaster/toaster.scss",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/profile/timeline/timelineItem/timelineItem.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/profile/timeline/timeline.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/offers/offers.controller.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/styles/bourbon/functions/_px-to-em.scss",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/directory/directory.html",
-		"/Users/pierre/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/pierre/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/pierre/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/feed/comments/comments.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/infiniteScroll/infiniteScroll.directive.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/instore-offers/instore-offer.html",
-		"/Users/pierre/workangel/wa-hermes/client/app/filters/recognitionStatus/recognitionStatus.filter.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/feed/create/tabgroup.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/feed/create/tab.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/barcodeGenerator/barcodeGenerator.directive.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/directory/directory.scss",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/feed/old-styles/_comments.scss",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/feed/old-views/posts/comments.html",
-		"/Users/pierre/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/pierre/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/pierre/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/Users/pierre/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/Users/pierre/workangel/wa-hermes/client/app/pages/feed/old-directives/posts/types/comments.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/localSpinner/localSpinner.js",
-		"/Users/pierre/workangel/wa-hermes/client/app/components/localSpinner/localSpinner.scss"
+		"/Users/pierre/workangel/wa-hermes/client/app/services/User/User.service.js"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/pierre/workangel/wa-hermes",
+			"/Users/pierre/workspace/waitr",
 			"/Users/pierre/workangel/wa-hermes/client/app",
 			"/Users/pierre/workangel/wa-hermes/client",
 			"/Users/pierre/workangel/wa-hermes",
@@ -393,6 +418,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"( ",
+			"credit98",
+			"shadow",
+			"font",
+			"#side-menu",
+			"{",
 			"console",
 			"hidemore",
 			"transition",
@@ -514,13 +545,7 @@
 			"spinner",
 			"spinn",
 			"global-spinner",
-			"{\n",
-			"r",
-			"folder",
-			"folder_exclude_patterns",
-			"+p",
-			"p",
-			"global-spinner"
+			"{\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -545,8 +570,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "styles/components/side-menu.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -596,6 +653,42 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"gen",
+				"styles/general.styl"
+			],
+			[
+				"ge",
+				"assets/general.js"
+			],
+			[
+				"fla",
+				"styles/components/flag.styl"
+			],
+			[
+				"info",
+				"assets/icon/info9.svg"
+			],
+			[
+				"little27",
+				"assets/icon/little27.svg"
+			],
+			[
+				"circul",
+				"assets/icon/circular4.svg"
+			],
+			[
+				"little",
+				"assets/icon/little14.svg"
+			],
+			[
+				"black6",
+				"assets/icon/black64.svg"
+			],
+			[
+				"si",
+				"styles/components/side-menu.styl"
+			],
 			[
 				"comm",
 				"client/app/pages/feed/comments/comments.js"
@@ -1071,42 +1164,6 @@
 			[
 				"menu",
 				"client/app/components/MainMenuDesktop/MainMenuDesktop.directive.js"
-			],
-			[
-				"notifi",
-				"client/app/components/notificationIndicator/notificationIndicator.scss"
-			],
-			[
-				"mainmenude",
-				"client/app/components/MainMenuDesktop/MainMenuDesktop.html"
-			],
-			[
-				"app",
-				"client/app/app.js"
-			],
-			[
-				"app.",
-				"client/app/app.scss"
-			],
-			[
-				"mainme",
-				"client/app/components/mainMenu/mainMenu.html"
-			],
-			[
-				"menude",
-				"client/app/components/MainMenuDesktop/MainMenuDesktop.directive.js"
-			],
-			[
-				"norma",
-				"client/app/styles/normalize/_normalize.scss"
-			],
-			[
-				"badge.",
-				"client/app/pages/feed/old-views/create/badges.html"
-			],
-			[
-				"typea",
-				"client/app/styles/mixins/_typeahead-dropdown.scss"
 			]
 		],
 		"width": 0.0
