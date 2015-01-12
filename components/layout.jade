@@ -18,7 +18,7 @@ html
 			.navbar__header(onclick="toggleMenu()") 
 				.navbar__brand(id="brand") waitR
 
-		.view
+		.view(id='yolo')
 			.side-menu 
 
 				.circle 
@@ -28,7 +28,7 @@ html
 				ul
 					li.side-menu__item.flag
 						.flag__image
-							img(src="/assets/icon/adjust2.svg")
+							img(src="/assets/icon/credit98.svg")
 						.flag__body
 							| Credit Card
 
@@ -43,17 +43,46 @@ html
 				.side-menu__title
 					| Orders
 				ul
-					li.side-menu__item Current 
-					li.side-menu__item In the need
-					li.side-menu__item History
+					li.side-menu__item.flag
+						.flag__image
+							img(src="/assets/icon/black64.svg")
+						.flag__body
+							| Current
+
+					li.side-menu__item.flag
+						.flag__image
+							img(src="/assets/icon/circular9.svg")
+						.flag__body
+							| In the need
+
+					li.side-menu__item.flag
+						.flag__image
+							img(src="/assets/icon/little14.svg")
+						.flag__body
+							| History
+
 				.side-menu__separator
 
 				.side-menu__title
 					| The Doodle Bar
 				ul
-					li.side-menu__item Opening Hours
-					li.side-menu__item Get Me There
-					li.side-menu__item Contact
+					li.side-menu__item.flag
+						.flag__image
+							img(src="/assets/icon/circular4.svg")
+						.flag__body
+							| Events
+
+					li.side-menu__item.flag
+						.flag__image
+							img(src="/assets/icon/little27.svg")
+						.flag__body
+							| Vouchers
+
+					li.side-menu__item.flag
+						.flag__image
+							img(src="/assets/icon/info9.svg")
+						.flag__body
+							| About
 
 			.container(id="container")
 				block view
