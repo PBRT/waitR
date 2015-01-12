@@ -1,26 +1,17 @@
 .tile
-  position: relative
   display: inline-block
-  margin-left: 25%
+  margin-left: 50%
   margin-top: 2*ui-hr
-  min-height: ui-hr
-  overflow: hidden
-  transform: translate3d(0%, 0,0)
+  transform: translate3d(-50%, 0,0)
   &__row
-    position: relative
-    margin: 0
-    min-height: ui-hr
-    overflow: hidden
+    min-width: ui-vr
+    height: 5*ui-vr
   &__item
-    position: relative
+    float: left
     background-color: white
     transition: background-color 0.1s ease-in
-    cursor: pointer
-    float: left
-    min-width: 2*ui-vr
-    min-height: 4*ui-vr
-    padding: ui-hr
-    text-align: center
+    width: 5*ui-vr
+    height: 5*ui-vr
   &__item--green-dark
     background-color: ui-green-dark
   &__item--green-light
