@@ -1,54 +1,22 @@
 .tile
-  border: solid 1px;
-  border-radius: 3px
-  box-shadow: 0 2px 0 rgba(0,0,0,0.4);
-  position: relative
   display: inline-block
   margin-left: 50%
   margin-top: 2*ui-hr
-  min-height: ui-hr
-  overflow: hidden
   transform: translate3d(-50%, 0,0)
   &__row
-    position: relative
-    margin: 0
-    min-height: ui-hr
-    overflow: hidden
+    min-width: ui-vr
+    height: 5*ui-vr
   &__item
-    position: relative
+    float: left
     background-color: white
     transition: background-color 0.1s ease-in
-    cursor: pointer
-    //border: ui-border-default
-    float: left
-    min-width: 5*ui-vr
-    min-height: 5*ui-vr
-    padding: ui-hr
-    text-align: center
-  &__item:hover
-    background-color: ui-black
-    color: #fff
-    border-color: #fff
-  &__vertical-separator-bottom
-    position: absolute;
-    left: 100%;
-    background-color: ui-lightblack;
-    height: 80%;
-    bottom: 0px;
-    width: 1px;
-    z-index: 1
-  &__vertical-separator-top
-    position: absolute;
-    left: 100%;
-    background-color: ui-lightblack;
-    height: 80%;
-    top: 0px;
-    width: 1px;
-    z-index: 1
-  &__horizontal-separator
-    position: absolute;
-    bottom: 0
-    background-color: ui-lightblack
-    height: 1px
-    width:80%
-    margin-left:10%
+    width: 5*ui-vr
+    height: 5*ui-vr
+  &__item--green-dark
+    background-color: ui-green-dark
+  &__item--green-light
+    background-color: ui-green-light
+  &__item--red
+    background-color: ui-lightred
+  &__item--black
+    background-color: ui-dark
